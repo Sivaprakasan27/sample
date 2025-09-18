@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div>
       <Header darkMode={darkMode} setDarkMode={setDarkMode} onNavigate={setPage} />
-      <h1>hi</h1>
+      
       <main>
         {page === "home" ? <CrudWithLocalStorage /> : <Settings />}
       </main>
